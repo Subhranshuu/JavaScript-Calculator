@@ -1,0 +1,87 @@
+body{
+    background-color: hsl(220, 82%, 74%);
+    
+    align-items: center;
+    margin:0;
+    height: 110vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+#txt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: hsl(307, 64%, 63%);
+}
+#carli{
+    display: flex;
+    justify-content: center;
+}
+#calculator{
+ 
+     background-color: black;
+     height: 550px;
+     width: 350px;
+     overflow: hidden;
+     border-radius: 25px;
+}
+#box{
+    width: 90%;
+    height: 15%;
+    padding: 20px;
+    font-size: 300%;
+    border: none;
+    background-color: rgb(71, 71, 71);
+    text-align: right;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#keys{
+    align-items: left;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+    padding: 20px;
+}
+.int{
+    background-color: hsl(3, 83%, 45%);
+}
+:hover.int{
+    background-color: hsl(3, 79%, 37%);
+}
+:active.int{
+    background-color: hsl(0, 81%, 46%);
+}
+.spc{
+    background-color: hsl(0, 70%, 45%);
+}
+:hover.spc{
+    background-color: hsl(0, 67%, 47%);
+}
+:active.spc{
+    background-color:hsl(0, 0%, 70%)
+    ;
+}
+:hover.char{
+    background-color: hsl(0, 82%, 36%);
+}
+:active.char{
+    background-color: hsl(330, 40%, 98%);
+}
